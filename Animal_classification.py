@@ -9,6 +9,9 @@ from keras.layers import Dense, Flatten, Activation, Dropout, Conv2D, MaxPooling
 from keras.models import Sequential
 from keras.callbacks import ModelCheckpoint
 
+# the dataset can be downloaded from the following link
+# https://www.kaggle.com/alessiocorrado99/animals10
+
 DATADIR = "Directory to your training dataset" 
 CATAGORIES = ["Cats","Dogs","Elephants","Horse"]	#Subfolders within the above given directory where each folder contains corresponding images
 IMG_SIZE = 90
