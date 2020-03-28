@@ -8,3 +8,5 @@ being used worldwide.
 In this Program i have used the ADAM optimizer as it converges faster due to its momentum based adaptations.
 # Loss Funciton
 The loss is minimized over Categorical Cross Entropy. Which uses average information to measure the loss.
+# The data set can be downloaded from the following link
+https://www.kaggle.com/alessiocorrado99/animals10
