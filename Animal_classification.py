@@ -27,7 +27,7 @@ def create_training_data():
                 pass
 create_training_data()
 import random
-random.shuffle(training_data)
+random.shuffle(training_data)   #the data needs to be shuffled in order to train perfectly
 
 x=[]
 y=[]
@@ -36,8 +36,8 @@ for features,label in training_data:
     x.append(features)
     y.append(label)
 
-x = np.array(x).reshape(-1,IMG_SIZE,IMG_SIZE,1)
-y = np.array(y)
+x = np.array(x).reshape(-1,IMG_SIZE,IMG_SIZE,1)     #this contains the input images appended in an array
+y = np.array(y)                                     #this contains the output labels appended in an array
 
 x=x/255
 print("modelling started")
